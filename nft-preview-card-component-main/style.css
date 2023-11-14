@@ -1,0 +1,24 @@
+:root {
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Verydarkblue: hsl(217, 54%, 11%);
+    --Verydarkblue: hsl(216, 50%, 16%);
+    --Verydarkblue: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+/*font-family: 'Outfit', sans-serif;*/
+
+.html {
+    font-family: 'Outfit', sans-serif;
+}
+
+.body {
+    background: var(--Verydarkblue);
+    min-height: 100vh;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
